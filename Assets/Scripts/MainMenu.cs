@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -18,12 +19,15 @@ public class MainMenu : MonoBehaviour
 
     public void NewGame()
     {
-
+        //Load random scene
+        int index = Random.Range(1, 3);
+        SceneManager.LoadScene(index);
     }
 
     public void Exit()
     {
-        
+        //Exit app
+        Application.Quit();
     }
 
     public void Settings()
