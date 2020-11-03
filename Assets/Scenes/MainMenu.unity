@@ -149,7 +149,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 360.26, y: 79.9}
+  m_SizeDelta: {x: 598.7, y: 111.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &240421645
 MonoBehaviour:
@@ -190,7 +190,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 240421646}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1654844545}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &240421646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,8 +435,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000038146973, y: 153.8}
-  m_SizeDelta: {x: 1138.4, y: 390.6}
+  m_AnchoredPosition: {x: -0.000012875, y: 88}
+  m_SizeDelta: {x: 1149, y: 550.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &755047271
 MonoBehaviour:
@@ -492,11 +503,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 416767b5bbdb3e24e8f385bece614050, type: 3}
-    m_FontSize: 196
+    m_FontSize: 289
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 196
+    m_MaxSize: 295
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -642,7 +653,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 362.36, y: 92}
+  m_SizeDelta: {x: 600.2, y: 107.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &942355521
 MonoBehaviour:
@@ -683,7 +694,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 942355522}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1654844550}
+        m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &942355522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -730,7 +752,7 @@ GameObject:
   - component: {fileID: 1048318961}
   - component: {fileID: 1048318962}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -755,7 +777,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000026703, y: -129.9}
+  m_AnchoredPosition: {x: 0.000026661, y: 0.000015259}
   m_SizeDelta: {x: 152.9, y: 120.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1048318962
@@ -1045,6 +1067,7 @@ GameObject:
   - component: {fileID: 1654844548}
   - component: {fileID: 1654844547}
   - component: {fileID: 1654844546}
+  - component: {fileID: 1654844550}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1133,6 +1156,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1654844550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654844545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce9b3e1466fad440805b55051e40a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1676477738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,7 +1205,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 356.8, y: 91.6}
+  m_SizeDelta: {x: 591, y: 107.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1676477740
 MonoBehaviour:
@@ -1211,7 +1246,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1676477741}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1654844550}
+        m_MethodName: NewGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1676477741
 MonoBehaviour:
   m_ObjectHideFlags: 0
